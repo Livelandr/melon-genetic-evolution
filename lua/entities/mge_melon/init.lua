@@ -13,6 +13,8 @@ function ENT:Initialize()
 	self:SetSolid( SOLID_VPHYSICS )         -- Toolbox
     self:SetUseType(SIMPLE_USE)
 
+    self:SetMaterial("models/bw_melon")
+
 
     local phys = self:GetPhysicsObject()
 	if (phys:IsValid()) then
